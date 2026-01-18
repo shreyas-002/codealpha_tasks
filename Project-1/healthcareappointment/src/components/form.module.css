@@ -1,0 +1,29 @@
+.frm {
+  margin-top: 2rem;
+  max-width: 420px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+h3 span {
+  color: #1976d2;
+}
+
+.inp {
+  width: 100%;
+  margin-bottom: 0.7rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.6rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}

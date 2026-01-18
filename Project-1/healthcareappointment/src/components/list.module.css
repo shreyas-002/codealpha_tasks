@@ -1,0 +1,56 @@
+.list {
+  margin-top: 2rem;
+}
+
+.itm {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.doc {
+  font-weight: 600;
+  color: #1e88e5;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.Upcoming {
+  background: #e3f2fd;
+  color: #1e88e5;
+}
+
+.Today {
+  background: #fff3e0;
+  color: #fb8c00;
+}
+
+.Past {
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.del {
+  background: #ef4444;
+  border: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.emp {
+  margin-top: 1.5rem;
+  color: #6b7280;
+}
