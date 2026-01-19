@@ -1,16 +1,100 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Cryptocurrency Trading Dashboard
 
-Currently, two official plugins are available:
+A professional cryptocurrency trading simulator built with **React + Vite** that demonstrates real-world trading dashboard functionality such as live prices, wallet management, profit & loss tracking, and interactive charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Login with Email & Password
+- PIN-protected Buy & Sell actions
+- Live cryptocurrency prices using CoinGecko API
+- Supported coins:
+  - Bitcoin (BTC)
+  - Ethereum (ETH)
+  - Solana (SOL)
+  - Cardano (ADA)
+  - Ripple (XRP)
+  - Dogecoin (DOGE)
+- USDT-based wallet system
+- Real-time wallet valuation
+- Per-coin Profit / Loss calculation
+- Total portfolio Profit / Loss
+- Portfolio performance chart (real-time updates)
+- Dark / Light mode
+- Secure logout with wallet & PIN reset
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Dashboard
+
+- Displays logged-in user
+- Shows total portfolio value
+- Live Profit / Loss calculation
+- Portfolio performance chart that updates on:
+  - Buy
+  - Sell
+  - Price updates
+- Holdings breakdown with per-coin P/L
+
+---
+
+## Market
+
+- Buy & Sell crypto using live prices
+- Independent input for each coin
+- Buy disabled when USDT balance is insufficient
+- PIN verification before every transaction
+- Wallet updates instantly after trades
+
+---
+
+## Wallet
+
+- Displays only owned assets
+- Shows coin amount and current USD value
+- Updates in real time with market prices
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- Context API
+- React Router
+- Chart.js
+- CoinGecko API
+- Custom CSS
+
+---
+
+## Notes
+
+- This is a **trading simulator**, not a real blockchain wallet
+- No real funds are involved
+- CoinGecko API is used for educational purposes only
+- API failures are handled gracefully
+
+---
+
+## Run Locally
+
+bash
+npm install
+npm run dev
+
+---
+
+Open http://localhost:5173
+
+---
+
+Author
+Shreyas
+Fullstack Developer and crypo enthusiast
+
+---
+
+
