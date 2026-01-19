@@ -1,0 +1,125 @@
+.usdt-balance {
+  margin-top: 10px;
+  margin-bottom: 26px;
+  padding: 14px 20px;
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  font-size: 15px;
+}
+
+.market-grid {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.market-card {
+  background: var(--card);
+  padding: 28px;
+  border-radius: 26px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.market-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.symbol {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.market-card input {
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+
+.market-card input:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.total-cost {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.market-actions {
+  display: flex;
+  gap: 14px;
+}
+
+.buy-btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6c63ff, #9f8cff);
+  color: white;
+  font-weight: 500;
+}
+
+.sell-btn {
+  flex: 1;
+  padding: 14px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ff7adf, #ff9ff3);
+  color: white;
+  font-weight: 500;
+}
+
+.buy-btn:disabled,
+.sell-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.insufficient {
+  font-size: 13px;
+  color: #ff6b6b;
+  text-align: center;
+}
+
+.trade-feedback {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(108, 99, 255, 0.12);
+  color: #6c63ff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.view-chart {
+  font-size: 14px;
+  color: #6c63ff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.view-chart:hover {
+  text-decoration: underline;
+}
+
+.owned {
+  font-size: 13px;
+  color: var(--muted);
+  text-align: right;
+}
+
+.chart-wrapper {
+  margin-top: 20px;
+}

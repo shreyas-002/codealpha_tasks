@@ -1,0 +1,26 @@
+.tx-list {
+  margin-top: 40px;
+}
+
+.tx-item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.tx-item.BUY {
+  border-left: 4px solid #6c63ff;
+}
+
+.tx-item.SELL {
+  border-left: 4px solid #ff7adf;
+}
+
+.tx-item small {
+  grid-column: span 5;
+  color: var(--muted);
+}

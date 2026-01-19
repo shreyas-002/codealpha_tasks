@@ -1,0 +1,41 @@
+:root {
+  --primary: linear-gradient(135deg, #6c63ff, #b983ff);
+  --accent: #ff7adf;
+  --bg: #f4f5ff;
+  --card: #ffffff;
+  --card-bg: #f8f9ff;
+  --text: #1a1a1a;
+  --muted: #6b6b8d;
+  --shadow: 0 14px 34px rgba(108, 99, 255, 0.22);
+}
+
+[data-theme="dark"] {
+  --bg: #0f1022;
+  --card: #1b1c3a;
+  --card-bg: #23245a;
+  --text: #ffffff;
+  --muted: #b8b8ff;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.page {
+  padding: 32px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
