@@ -1,16 +1,83 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# codealpha_tasks
 
-Currently, two official plugins are available:
+Projects developed during the **CodeAlpha Internship Program**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## DocCare – Healthcare Appointment System
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+DocCare is a frontend-only healthcare appointment booking application built using **React** as part of the CodeAlpha internship tasks.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Appointment Logic
+
+- Past dates are disabled using the HTML `min` attribute  
+- Additional validation prevents booking invalid appointments  
+- Appointment status is computed dynamically based on current date and time  
+- Appointments are grouped by date in a calendar-style view  
+
+---
+
+## 🔐 Authentication Note
+
+This project uses **mock authentication** for demonstration purposes only.
+
+- No backend  
+- No database  
+- No external APIs  
+
+---
+
+## ▶️ Running the Project Locally
+
+1. Navigate to the project directory:
+   bash
+   cd Project-1/healthcareappointment
+   Install dependencies:
+
+bash
+npm install
+
+---
+
+Start the development server:
+
+bash
+npm run dev
+
+---
+
+Open the application in your browser:
+
+arduino
+http://localhost:5173
+
+---
+
+Internship Objective
+This project demonstrates:
+
+Component-based React development
+
+Client-side routing and state management
+
+Clean UI and UX practices
+
+Realistic application flow and feature implementation
+
+Use of browser storage to simulate persistence
+
+---
+
+
+Author
+Shreyas
+Fullstack Developer and crypto enthusiast
+CodeAlpha Internship – Project 1
+
+---
+
+Repository Link
+https://github.com/shreyas-002/codealpha_tasks
