@@ -94,7 +94,8 @@ Open http://localhost:5173
 Author
 Shreyas
 Fullstack Developer and crypo enthusiast
+CodeAlpha Internship – Project 2
 
 ---
-
+Repository Link https://github.com/shreyas-002/codealpha_tasks
 
